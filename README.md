@@ -4,8 +4,8 @@ A sleek and dynamic food menu website developed using the latest web technologie
 <br>
 
 ➲ **Used Technologies:** <br>
-JSON - JavaScript - HTML/HTML5 - CSS/CSS3 - Git
-<br><br>                                  
+JSON - JavaScript - HTML/HTML5 - CSS/CSS3 - Git     
+
 ➲ **Used Libraries / SDK:** <br>
 Font Awesome - Google Fonts - Email.js - reCaptcha
 <br><br>
