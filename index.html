@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Leon Template is a Super Creative Agency Web Template, HTML, CSS and JavaScript Template">
+        <meta name="keywords" content="Leon, Template, Leon Template, Web Template, HTML, HTML5, CSS, CSS3, JavaScript, Responsive Design, HTML, CSS and JavaScript Template, Awesome Layout">
+        <meta name="author" content="Ahmed Maher">
+        <meta name="copyright" content="2024, Ahmed Maher">
+        <meta name="robots" content="index, follow">
+        <!-- Media Queries -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Page Logo -->
+        <link rel="icon" type="image/icon" href="">
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap" rel="stylesheet">
+        <!-- Main CSS File -->
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header id="header">
+                <div class="mobile">
+                    <div class="icon">
+                        <i class="fa-solid fa-bars"></i>
+                        <ul class="icon-hidden">
+                            <li><i class="fa-solid fa-xmark"></i></li>
+                            <li><a href="#favorite-fruits" title="Go To Favorite Fruits">Favorite Fruits</a></li>
+                            <li><a href="#fruit-shop" title="Go To Fruit Shop">Fruit Shop</a></li>
+                            <li><a href="#about" title="Go To About">About Us</a></li>
+                            <li><a href="#" title="Go To Login Page">Login <i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+                            <li><a href="#" title="Go To Cart">Cart <i class="fa-solid fa-bag-shopping"></i></a></li>
+                            <li>Copyrights &copy; Ahmed Maher<br>All Rights are reserved</li>
+                        </ul>
+                    </div>
+                    <nav>
+                        <h3 onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Food<br><span>Empire</span></h3>
+                        <ul>
+                            <div class="desktop">
+                                <a href="#favorite-fruits" title="Go To Favorite Fruits">Favorite Fruits</a>
+                                <a href="#fruit-shop" title="Go To Fruit Shop">Fruit Shop</a>
+                                <a href="#about" title="Go To About">About Us</a>
+                                <a href="#" title="Go To Login Page">Login</a>
+                                <a href="#" title="Go To Cart">Cart</a>
+                            </div>
+                            <li><i class="fa-solid fa-arrow-right-from-bracket"></i></li>
+                            <li><i class="fa-solid fa-bag-shopping"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <!-- Home -->
+        <section id="home">
+            <div class="container">
+                <article>
+                    <div class="fruit-delivery">
+                        <h1>Fruit <span>Fruit Mania</span><br>Delivery</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <figure>
+                        <img src="Images/pngwing 1.png" alt="Ananas">
+                    </figure>
+                    <div class="fruit-name">
+                        <div class="number">01/02</div>
+                        <h3>Ananas</h3>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    </div>
+                </article>
+                <div class="side-links">
+                    <a href="https://www.linkedin.com/in/ahmed-maher-algohary" target="_blank" title="Go To LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://web.facebook.com/profile.php?id=100012154268952" target="_blank" title="Go To Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/mhr2446" target="_blank" title="Go To Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <article>
+                <figure>
+                    <div>
+                        <img src="Images/orange.png" alt="Orange Fruit">
+                    </div>
+                    <figcaption>
+                        <h4>Orange</h4>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    </figcaption>
+                    <div class="price">
+                        <div class="number">39$ <del>56$</del></div>
+                        <button>Buy Now</button>
+                    </div>
+                </figure>
+                <figure>
+                    <div>
+                        <img src="Images/melons.png" alt="Melons Fruit">
+                    </div>
+                    <figcaption>
+                        <h4>Melons</h4>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    </figcaption>
+                    <div class="price">
+                        <div class="number">49$ <del>59$</del></div>
+                        <button>Buy Now</button>
+                    </div>
+                </figure>
+            </article>
+        </section>
+        <!-- Favorite Fruits -->
+        <section id="favorite-fruits" class="fruit-cards">
+            <div class="container">
+                <div class="head">
+                    <h2>Favorite Fruits</h2>
+                    <a href="#" title="More products">More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="products">
+                    <figure>
+                        <div class="image">
+                            <img src="Images/banana.png" alt="Banana" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Banana</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">39$ <del>55$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/orange2.png" alt="Orange" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Orange</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">20$ <del>30$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/pineapple.png" alt="Pinaple" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Pinaple</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">25$ <del>32$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/apple.png" alt="Apple" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Apple</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">39$ <del>55$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!-- Fruit Shop -->
+        <section id="fruit-shop" class="fruit-cards">
+            <div class="container">
+                <div class="head">
+                    <h2>Fruit Shop</h2>
+                    <a href="#" title="More products">More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="products">
+                    <figure>
+                        <div class="image">
+                            <img src="Images/banana.png" alt="Banana" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Banana</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">39$ <del>55$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/orange2.png" alt="Orange" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Orange</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">20$ <del>30$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/pineapple.png" alt="Pinaple" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Pinaple</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">25$ <del>32$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/apple.png" alt="Apple" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Apple</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">39$ <del>55$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/banana.png" alt="Banana" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Cherry</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">39$ <del>55$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/orange2.png" alt="Orange" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Melon</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">20$ <del>30$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/pineapple.png" alt="Pinaple" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Strawberries</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">25$ <del>32$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="image">
+                            <img src="Images/apple.png" alt="Apple" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <h3>Avocado</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            <div class="price">39$ <del>55$</del></div>
+                            <div class="purchase">
+                                <div class="amount">
+                                    <button id="plus">+</button>
+                                    <span id="number">1</span>
+                                    <button id="minus">–</button>
+                                </div>
+                                <button class="button">BUY NOW</button>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!-- About US -->
+        <section id="about" class="sec-padding">
+            <div class="container">
+                <div class="head">
+                    <h2>About Us</h2>
+                    <div class="icons">
+                        <i class="fa-solid fa-arrow-left"></i> 
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="persons">
+                    <article>
+                        <div class="image">
+                            <img src="Images/me.jpeg" alt="Client - Ahmed Maher" loading="lazy">
+                            <div class="stars">
+                                <i class="fa-solid fa-star active-icon"></i>
+                                <i class="fa-solid fa-star active-icon"></i>
+                                <i class="fa-solid fa-star active-icon"></i>
+                                <i class="fa-solid fa-star active-icon"></i>
+                                <i class="fa-solid fa-star active-icon"></i>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h3>Ahmed Maher</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="image">
+                            <img src="Images/person2.png" alt="Client - Anna" loading="lazy">
+                            <div class="stars">
+                                <i class="fa-solid fa-star active-icon"></i>
+                                <i class="fa-solid fa-star active-icon"></i>
+                                <i class="fa-solid fa-star active-icon"></i>
+                                <i class="fa-solid fa-star active-icon"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h3>Anna</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="image">
+                            <img src="Images/person3.png" alt="Client - Maria" loading="lazy">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h3>Maria</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer id="footer" class="sec-padding">
+            <div class="container">
+                <section class="newsletter">
+                    <h3>Subscribe to newsletter</h3>
+                    <form action="">
+                        <input type="email" id="usermail" placeholder="Join Us" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="social-media">
+                        <p>Socail Media</p>
+                        <div class="icons">
+                            <a href="https://www.linkedin.com/in/ahmed-maher-algohary" target="_blank" title="Go To LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://web.facebook.com/profile.php?id=100012154268952" target="_blank" title="Go To Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://www.instagram.com/mhr2446" target="_blank" title="Go To Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </section>
+                <section class="links">
+                    <a href="#">
+                        <h3>Food<br><span>Empire</span></h3>
+                    </a>
+                    <a href="#">Best Fruits</a>
+                    <a href="#">Social Media</a>
+                    <a href="#">More for You</a>
+                    <a href="#">YourShoop</a>
+                </section>
+                <div class="copyrights">
+                    <p>
+                        Copyright &copy; <span id="copyright-year"></span>
+                        UI from <a href="https://depi.gov.eg/" target="_blank" title="Copyrights">DEPI</a>. 
+                        Developed By <a href="https://www.linkedin.com/in/ahmed-maher-algohary" title="About Developer" target="_blank">Ahmed Maher</a>
+                    </p>
+                    <span>All Rights Reserved</span>
+                </div>
+            </div>
+        </footer>
+    <script src="main.js"></script>
+    </body>
+</html>
