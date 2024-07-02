@@ -7,7 +7,7 @@ A sleek and dynamic food menu website developed using the latest web technologie
 JSON - JavaScript - HTML/HTML5 - CSS/CSS3 - Git     
 
 ➲ **Used Libraries / SDK:** <br>
-Font Awesome - Google Fonts - Email.js - reCaptcha
+Font Awesome - Google Fonts - Email.js
 <br><br>
 ➲ **Demo (Live Preview):** <a href="https://ahmed-maher77.github.io/Food-Menu/" target="_blank">https://ahmed-maher77.github.io/Food-Menu/</a> 
 

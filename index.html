@@ -442,6 +442,24 @@
                 </div>
             </div>
         </footer>
-    <script src="main.js"></script>
+        <div class="popup-container">
+            <div class="popup-frame">
+                <div class="popup">
+                    <p>Your Email Sent Successfully</p>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Email JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init({
+                    publicKey: "wP3rED03ZFx50LJ4E",
+                });
+            })();
+        </script>
+        <script src="main.js"></script>
     </body>
 </html>
