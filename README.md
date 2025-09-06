@@ -48,7 +48,7 @@ A sleek and dynamic food menu website developed using the latest web technologie
 
 ## 👀 Website Preview:
 <a href="https://ahmed-maher77.github.io/Food-Menu/" title="demo">
-  <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
+  <img src="https://github.com/user-attachments/assets/091e8994-e802-4148-a677-4b7383d238db" alt="website preview - UI Mockup" width="400">
 </a>
 
 <hr/>
